@@ -11,10 +11,4 @@ fun main() = runBlocking {
             println("child launch: $this")
         }
     }
-
-    async {
-        println("async: $this")
-    }
-
-    println("... some other code...")
 }
